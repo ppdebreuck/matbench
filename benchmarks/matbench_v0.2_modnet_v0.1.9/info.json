@@ -1,0 +1,8 @@
+{
+  "authors": "Pierre-Paul DeBreuck (@ppdebreuck), Matthew Evans (@ml-evs)",
+  "algorithm": "MODNet (v0.1.9)",
+  "algorithm_long": "MODNet, the Materials Optimal Descriptor Network (v0.1.9). A feed-forward neural network, using all compatible matminer features and a relevance-redundancy based feature selection algorithm. Hyperparameter optimisation is performed with a nested grid search. Benchmark results were loaded from https://github.com/ml-evs/modnet-matbench.",
+  "bibtex_refs": "@misc{debreuck2021robust,\ntitle={Robust model benchmarking and bias-imbalance in data-driven materials science: a case study on MODNet},\nauthor={Pierre-Paul De Breuck and Matthew L. Evans and Gian-Marco Rignanese},\nyear={2021},\neprint={2102.02263},\narchivePrefix={arXiv},primaryClass={cond-mat.mtrl-sci}\n}",
+  "notes": null,
+  "requirements": {"python":  ["modnet==0.1.9", "matbench==0.2.0"]}
+}
